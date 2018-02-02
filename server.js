@@ -1,4 +1,5 @@
 var PORT = process.env.PORT || 3000;
+var request 	= require('request');
 var express 	= require('express');
 var path 			= require('path');
 var bodyParser= require('body-parser');
@@ -40,7 +41,7 @@ app.get('/', function(req, res){
 // Fetch a book page from gutemberg
 app.get('/bookcontent', function(req, res){
   console.log("Fetching book ID: "+req.query.id + " Page number:"+ req.query.pagenumber )
-  var pagesize = 6000;
+  var pagesize = 3000;
 
   var options = {
     url: "https://www.gutenberg.org/files/"+req.query.id+"/"+req.query.id+"-0.txt",
@@ -94,43 +95,35 @@ function GetPage (text, page_number, page_size){
 
     return page;
 };
+
+
+
 app.get('/fake/GetBookList', function(req, res) {
     res.json([{
-book_id: 1,
-author : 'Jose Ramirez',
-title : 'The little book of stuff',
-year: 1992,
-picture: "https://upload.wikimedia.org/wikipedia/commons/b/b0/A_Popular_Schoolgirl_-_book_cover_-_Project_Gutenberg_eText_18505.jpg"
-},
-{
-book_id: 2,
-author: 'Anna Frank',
-title: 'The diary of anna frank',
-year: 1947,
-picture: "https://upload.wikimedia.org/wikipedia/commons/3/3e/The_Moving_Picture_Boys_on_the_War_Front_-_Cover_-_Project_Gutenberg_etext_17744.jpg"
-},
-{
-book_id:3,
-author: 'Jhon Smith',
-title: 'Peter Pan the book',
-year:1925,
-picture:"https://www.gutenberg.org/files/26998/26998-h/images/img-cover.jpg"
-}
+
+	book_id: 11,
+	author : 'Lewis Carroll',
+	title : 'Alice s Adventure in Wonderland',
+	year: 1994,
+	picture: "https://www.alephbet.com/pictures/medium/31457_1.JPG"
+	},
+	{
+	book_id: 84,
+	author: 'Anna Frank',
+	title: 'The diary of anna frank',
+	year: 1947,
+	picture: "https://upload.wikimedia.org/wikipedia/commons/3/3e/The_Moving_Picture_Boys_on_the_War_Front_-_Cover_-_Project_Gutenberg_etext_17744.jpg"
+	},
+	{
+	book_id:219,
+	author: 'Jhon Smith',
+	title: 'Peter Pan the book',
+	year:1925,
+	picture:"https://www.gutenberg.org/files/26998/26998-h/images/img-cover.jpg"
+	}
 
 ]);
 });
-
-
-
-app.get('/fake/GetLastPageRead', function(req, res) {
-    res.json({page_number: 3});
-});
-
-
-app.post('/fake/SetLastPageRead', function(req, res) {
-    res.json({message:ok});
-});
-
 
 
 //Models

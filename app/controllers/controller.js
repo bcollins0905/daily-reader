@@ -35,6 +35,11 @@ exports.articles = function(req, res) {
 	res.render('articles');
 }
 
+exports.read = function(req, res) {
+
+	res.render('read');
+}
+
 exports.logout = function(req, res){
 
 	req.session.destroy(function(err){
