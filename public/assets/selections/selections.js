@@ -16,10 +16,10 @@ function newsGetter() {
         for (var i = 0; i < parsedRes.length; i++) {
                             parsedRes[i]
                             
-              $("#article_info").append(
+              $("#article_info").prepend(
                   `<div class="row"> 
-                      <div class="col-md-4"> ${parsedRes[i].title} </div>
-                      <div class="col-md-4"> ${parsedRes[i].description} </div>
+                      <div class="col-md-4"><div id="titles"> ${parsedRes[i].title} </div> </div>
+                      <div class="col-md-4"><div id="article_description">  ${parsedRes[i].description} </div> </div>
                       <div class="col-md-4"> <a href="${parsedRes[i].url}" target="_blank"> <img src=${parsedRes[i].urlToImage}></img></a></div>
                     </div>`
                         ) 
@@ -51,8 +51,8 @@ function businessGetter() {
                             
               $("#article_info").prepend(
                   `<div class="row"> 
-                      <div class="col-md-4"> ${parsedRes[i].title} </div>
-                      <div class="col-md-4"> ${parsedRes[i].description} </div>
+                      <div class="col-md-4"><div id="titles"> ${parsedRes[i].title} </div> </div>
+                      <div class="col-md-4"><div id="article_description">  ${parsedRes[i].description} </div> </div>
                       <div class="col-md-4"> <a href="${parsedRes[i].url}" target="_blank"> <img src=${parsedRes[i].urlToImage}></img></a></div>
                     </div>`
                         ) 
@@ -86,8 +86,8 @@ $.ajax({
                             
               $("#article_info").prepend(
                   `<div class="row"> 
-                      <div class="col-md-4"> ${parsedRes[i].title} </div>
-                      <div class="col-md-4"> ${parsedRes[i].description} </div>
+                      <div class="col-md-4"><div id="titles"> ${parsedRes[i].title} </div> </div>
+                      <div class="col-md-4"><div id="article_description">  ${parsedRes[i].description} </div> </div>
                       <div class="col-md-4"> <a href="${parsedRes[i].url}" target="_blank"> <img src=${parsedRes[i].urlToImage}></img></a></div>
                     </div>`
                         ) 
@@ -125,8 +125,8 @@ function entertainmentGetter() {
                             
               $("#article_info").prepend(
                   `<div class="row"> 
-                      <div class="col-md-4"> ${parsedRes[i].title} </div>
-                      <div class="col-md-4"> ${parsedRes[i].description} </div>
+                      <div class="col-md-4"><div id="titles"> ${parsedRes[i].title} </div> </div>
+                      <div class="col-md-4"><div id="article_description">  ${parsedRes[i].description} </div> </div>
                       <div class="col-md-4"> <a href="${parsedRes[i].url}" target="_blank"> <img src=${parsedRes[i].urlToImage}></img></a></div>
                     </div>`
                         ) 
@@ -158,8 +158,8 @@ $("#health").click(function() {
                             
               $("#article_info").prepend(
                   `<div class="row"> 
-                      <div class="col-md-4"> ${parsedRes[i].title} </div>
-                      <div class="col-md-4"> ${parsedRes[i].description} </div>
+                      <div class="col-md-4"><div id="titles"> ${parsedRes[i].title} </div> </div>
+                      <div class="col-md-4"><div id="article_description">  ${parsedRes[i].description} </div> </div>
                       <div class="col-md-4"> <a href="${parsedRes[i].url}" target="_blank"> <img src=${parsedRes[i].urlToImage}></img></a></div>
                     </div>`
                         ) 
@@ -193,8 +193,8 @@ $.ajax({
                             
               $("#article_info").prepend(
                   `<div class="row"> 
-                      <div class="col-md-4"> ${parsedRes[i].title} </div>
-                      <div class="col-md-4"> ${parsedRes[i].description} </div>
+                      <div class="col-md-4"><div id="titles"> ${parsedRes[i].title} </div> </div>
+                      <div class="col-md-4"><div id="article_description">  ${parsedRes[i].description} </div> </div>
                       <div class="col-md-4"> <a href="${parsedRes[i].url}" target="_blank"> <img src=${parsedRes[i].urlToImage}></img></a></div>
                     </div>`
                         ) 

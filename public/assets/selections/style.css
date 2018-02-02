@@ -1,10 +1,11 @@
 img{
-	height: 112px;
-	width: 200px;
-	margin-top: 30px;
+	height: 200px;
+	width: 250px;
+	padding: 15px;
+
 }
 
-#article_display{
+#titles{
 	font-family: 'Cinzel', serif, bold;
 	margin-top: 30px;
 
@@ -104,3 +105,6 @@ body{
 
 }
 
+#titles{
+
+}
