@@ -20,33 +20,68 @@ img{
  #news{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
-	color: black;
+	color: black !important; 
 	background-color: #d5dfef
 }
+
+#news:hover {
+    background-color: #898b8e !important;
+}
+
 
 #sports{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#sports:hover {
+    background-color: #898b8e !important;
 }
 
 #entertainment{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#entertainment:hover {
+    background-color: #898b8e !important;
 }
 
 #tech{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#tech:hover {
+    background-color: #898b8e !important;
 }
 
 #business{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#business:hover {
+    background-color: #898b8e !important;
 }
 
 #health{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#health:hover {
+    background-color: #898b8e !important;
 }
 
 #nav{
@@ -58,3 +93,14 @@ img{
 {
 	margin-top: 8%;
 }
+
+#header{
+	text-align: center;
+	color: white;
+}
+
+body{
+	background-color: #b7afa1;
+
+}
+

@@ -211,6 +211,7 @@ header .header-limiter nav a.selected {
 
 body{
 	padding: 25px;
+	background-color: black;
 }
 
 img{
@@ -236,32 +237,42 @@ img{
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
 	color: black;
-	background-color: #d5dfef
+	background-color: #d5dfef;
 }
 
 #sports{
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
+	color: black;
+	background-color: #d5dfef;
 }
 
 #entertainment{
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
+	color: black;
+	background-color: #d5dfef;
 }
 
 #tech{
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
+	color: black;
+	background-color: #d5dfef;
 }
 
 #business{
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
+	color: black;
+	background-color: #d5dfef;
 }
 
 #health{
 	font-family: 'Special Elite', cursive;
 	font-size: 20px;
+	color: black;
+	background-color: #d5dfef;
 }
 
 #nav{
