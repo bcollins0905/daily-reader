@@ -37,8 +37,6 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
 	res.redirect('/index');
 });
-
-<<<<<<< HEAD
 // Fetch a book page from gutemberg
 app.get('/bookcontent', function(req, res){
   console.log("Fetching book ID: "+req.query.id + " Page number:"+ req.query.pagenumber )
@@ -135,8 +133,6 @@ app.post('/fake/SetLastPageRead', function(req, res) {
 
 
 
-=======
->>>>>>> origin/master
 //Models
 var models = require("./app/models");
 
@@ -146,7 +142,7 @@ var authRoute = require('./app/routes/auth.js')(app, passport);
 app.get('/articles', function(response, body){
 
   var parsedRes = response.articles
-    
+
         console.log("Response: ", response)
         console.log("Body: ", body)
 
