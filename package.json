@@ -22,6 +22,7 @@
     "bcrypt": "^1.0.3",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
+    "cached-request": "^1.1.2",
     "cheerio": "^1.0.0-rc.2",
     "dotenv": "^4.0.0",
     "exphbs": "^1.1.0",

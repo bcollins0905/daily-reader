@@ -8,21 +8,12 @@ function FillPage(book_id, page_number){
 
       data.forEach(function(entry) {
         console.log(entry);
-        var content = '<div class="boxed"> <img src="' + entry.picture + '"><div class="overlay"><div class="text">'+entry.title+'</div></div></div>';
+        var content = '<div class="boxed"> <a href="/read?bookid='+ entry.book_id +'&title='+entry.title+'&page=0"> <img src="' + entry.picture + '">  <div class="overlay"><div class="text">'+entry.title+'</div></div> </a> </div>';
         $("#books").append(content);
 
       });
 
-    }
-
-    function openwindow() {
-    testwindow = window.open("", "books", "location=1,status=1,scrollbars=1,width=100,height=100");
-    testwindow.moveTo(0, 0);
-}
-
-  );
-
-
+    });
 
 };
 
