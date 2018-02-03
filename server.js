@@ -11,6 +11,7 @@ var env 			= require('dotenv').load();
 var app 	 		= express();
 
 
+
 //For BodyParser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -38,6 +39,8 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
 	res.redirect('/index');
 });
+
+
 // Fetch a book page from gutemberg
 app.get('/bookcontent', function(req, res){
   console.log("Fetching book ID: "+req.query.id + " Page number:"+ req.query.pagenumber )
