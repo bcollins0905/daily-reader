@@ -13,15 +13,17 @@ function newsGetter() {
       console.log("resp : " + response)
       var parsedRes = response.articles
       var articleTitles = [];
+      var articleDescription = [];
       var images = "";
       var titles;
       for (var i = 0; i < parsedRes.length; i++) {
         parsedRes[i]
-          // var formattedTitles = parsedRes[i].split(",").join("<br />")
-
-
+        console.log(parsedRes[1].description)
           var articleString = articleTitles.push(parsedRes[i].title)
-          // articleTitles.split(',').join("<br />")
+          console.log(article_display)
+
+          var articleDescriptionArray = articleDescription.push(parsedRes[i].description)
+     
 
           // articleTitles.push(parsedRes[i].title)
           console.log("article titles : " + articleTitles)
@@ -42,14 +44,16 @@ function newsGetter() {
               // console.log(titlesString)
               // var removeCommas = articleTitles.split(',').join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>' );
               // console.log(removeCommas)
-              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>')
+              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' + '<br>')
+              var separatedDescriptions = articleDescription.join('<br>' + '<br>' + '<br>')
 
              $("#article_display").html(separatedTitles);
+             $("#article_description").html(separatedDescriptions);
+
 
                })
             })
-          }  
-
+        }
 
 newsGetter()
 
@@ -63,7 +67,7 @@ function businessGetter() {
 
     $("#business").click(function() {
 
-    $.ajax({
+   $.ajax({
       url: queryURL,
       method: "GET"
     })
@@ -72,15 +76,17 @@ function businessGetter() {
       console.log("resp : " + response)
       var parsedRes = response.articles
       var articleTitles = [];
+      var articleDescription = [];
       var images = "";
       var titles;
       for (var i = 0; i < parsedRes.length; i++) {
         parsedRes[i]
-          // var formattedTitles = parsedRes[i].split(",").join("<br />")
-
-
+        console.log(parsedRes[1].description)
           var articleString = articleTitles.push(parsedRes[i].title)
-          // articleTitles.split(',').join("<br />")
+          console.log(article_display)
+
+          var articleDescriptionArray = articleDescription.push(parsedRes[i].description)
+     
 
           // articleTitles.push(parsedRes[i].title)
           console.log("article titles : " + articleTitles)
@@ -101,13 +107,16 @@ function businessGetter() {
               // console.log(titlesString)
               // var removeCommas = articleTitles.split(',').join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>' );
               // console.log(removeCommas)
-              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>')
+              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' + '<br>')
+              var separatedDescriptions = articleDescription.join('<br>' + '<br>' + '<br>')
 
              $("#article_display").html(separatedTitles);
+             $("#article_description").html(separatedDescriptions);
+
 
                })
             })
-          }  
+        }
 
 
 businessGetter()
@@ -121,7 +130,7 @@ function sportsGetter() {
 
     $("#sports").click(function() {
 
-    $.ajax({
+       $.ajax({
       url: queryURL,
       method: "GET"
     })
@@ -130,15 +139,17 @@ function sportsGetter() {
       console.log("resp : " + response)
       var parsedRes = response.articles
       var articleTitles = [];
+      var articleDescription = [];
       var images = "";
       var titles;
       for (var i = 0; i < parsedRes.length; i++) {
         parsedRes[i]
-          // var formattedTitles = parsedRes[i].split(",").join("<br />")
-
-
+        console.log(parsedRes[1].description)
           var articleString = articleTitles.push(parsedRes[i].title)
-          // articleTitles.split(',').join("<br />")
+          console.log(article_display)
+
+          var articleDescriptionArray = articleDescription.push(parsedRes[i].description)
+     
 
           // articleTitles.push(parsedRes[i].title)
           console.log("article titles : " + articleTitles)
@@ -159,13 +170,16 @@ function sportsGetter() {
               // console.log(titlesString)
               // var removeCommas = articleTitles.split(',').join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>' );
               // console.log(removeCommas)
-              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>')
+              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' + '<br>')
+              var separatedDescriptions = articleDescription.join('<br>' + '<br>' + '<br>')
 
              $("#article_display").html(separatedTitles);
+             $("#article_description").html(separatedDescriptions);
+
 
                })
             })
-          }  
+        }
 
 
 sportsGetter()
@@ -183,7 +197,7 @@ function entertainmentGetter() {
     $("#entertainment").click(function() {
     
 
-    $.ajax({
+   $.ajax({
       url: queryURL,
       method: "GET"
     })
@@ -192,15 +206,17 @@ function entertainmentGetter() {
       console.log("resp : " + response)
       var parsedRes = response.articles
       var articleTitles = [];
+      var articleDescription = [];
       var images = "";
       var titles;
       for (var i = 0; i < parsedRes.length; i++) {
         parsedRes[i]
-          // var formattedTitles = parsedRes[i].split(",").join("<br />")
-
-
+        console.log(parsedRes[1].description)
           var articleString = articleTitles.push(parsedRes[i].title)
-          // articleTitles.split(',').join("<br />")
+          console.log(article_display)
+
+          var articleDescriptionArray = articleDescription.push(parsedRes[i].description)
+     
 
           // articleTitles.push(parsedRes[i].title)
           console.log("article titles : " + articleTitles)
@@ -221,13 +237,16 @@ function entertainmentGetter() {
               // console.log(titlesString)
               // var removeCommas = articleTitles.split(',').join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>' );
               // console.log(removeCommas)
-              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>')
+              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' + '<br>')
+              var separatedDescriptions = articleDescription.join('<br>' + '<br>' + '<br>')
 
              $("#article_display").html(separatedTitles);
+             $("#article_description").html(separatedDescriptions);
+
 
                })
             })
-          }  
+        }
 
 entertainmentGetter()
 
@@ -240,7 +259,7 @@ function healthGetter() {
     $("#health").click(function() {
     
 
-    $.ajax({
+   $.ajax({
       url: queryURL,
       method: "GET"
     })
@@ -249,15 +268,17 @@ function healthGetter() {
       console.log("resp : " + response)
       var parsedRes = response.articles
       var articleTitles = [];
+      var articleDescription = [];
       var images = "";
       var titles;
       for (var i = 0; i < parsedRes.length; i++) {
         parsedRes[i]
-          // var formattedTitles = parsedRes[i].split(",").join("<br />")
-
-
+        console.log(parsedRes[1].description)
           var articleString = articleTitles.push(parsedRes[i].title)
-          // articleTitles.split(',').join("<br />")
+          console.log(article_display)
+
+          var articleDescriptionArray = articleDescription.push(parsedRes[i].description)
+     
 
           // articleTitles.push(parsedRes[i].title)
           console.log("article titles : " + articleTitles)
@@ -274,14 +295,20 @@ function healthGetter() {
 
 
             }
-              
-              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>')
+              // var titlesString = articleTitles.toString();
+              // console.log(titlesString)
+              // var removeCommas = articleTitles.split(',').join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>' );
+              // console.log(removeCommas)
+              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' + '<br>')
+              var separatedDescriptions = articleDescription.join('<br>' + '<br>' + '<br>')
 
              $("#article_display").html(separatedTitles);
+             $("#article_description").html(separatedDescriptions);
+
 
                })
             })
-          }  
+        }
 
 
 function techGetter() {
@@ -292,7 +319,7 @@ function techGetter() {
     $("#tech").click(function() {
     
 
-    $.ajax({
+  $.ajax({
       url: queryURL,
       method: "GET"
     })
@@ -301,15 +328,17 @@ function techGetter() {
       console.log("resp : " + response)
       var parsedRes = response.articles
       var articleTitles = [];
+      var articleDescription = [];
       var images = "";
       var titles;
       for (var i = 0; i < parsedRes.length; i++) {
         parsedRes[i]
-          // var formattedTitles = parsedRes[i].split(",").join("<br />")
-
-
+        console.log(parsedRes[1].description)
           var articleString = articleTitles.push(parsedRes[i].title)
-          // articleTitles.split(',').join("<br />")
+          console.log(article_display)
+
+          var articleDescriptionArray = articleDescription.push(parsedRes[i].description)
+     
 
           // articleTitles.push(parsedRes[i].title)
           console.log("article titles : " + articleTitles)
@@ -326,13 +355,19 @@ function techGetter() {
 
 
             }
-              
-              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>')
+              // var titlesString = articleTitles.toString();
+              // console.log(titlesString)
+              // var removeCommas = articleTitles.split(',').join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' +'<br>' + '<br>' );
+              // console.log(removeCommas)
+              var separatedTitles = articleTitles.join('<br>' + '<br>' + '<br>' + '<br>' + '<br>' + '<br>')
+              var separatedDescriptions = articleDescription.join('<br>' + '<br>' + '<br>')
 
              $("#article_display").html(separatedTitles);
+             $("#article_description").html(separatedDescriptions);
+
 
                })
             })
-          }  
+        }
 techGetter()
 

@@ -1,12 +1,58 @@
+body{
+	padding: 25px;
+}
+
 img{
-	height: 200px;
-	width: 300px;
-	padding: 20px;
+	height: 112px;
+	width: 200px;
+	margin-top: 30px;
 }
 
 #article_display{
-	font-size: 18px;
-	padding: 20px;
-	padding-top: 80px;
-	font-family: 'Cinzel', serif, bold
+	font-family: 'Cinzel', serif, bold;
+	margin-top: 30px;
+
+}
+
+#article_description{
+	font-size: 14px;
+	text-align: left;
+	margin-top: 30px;
+}
+
+
+ #news{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	color: black;
+	background-color: #d5dfef
+}
+
+#sports{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+}
+
+#entertainment{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+}
+
+#tech{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+}
+
+#business{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+}
+
+#health{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+}
+
+#nav{
+	text-align: center;
 }

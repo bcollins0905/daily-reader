@@ -1,18 +1,161 @@
 img{
 	height: 200px;
-	width: 300px;
-	padding: 20px;
+	width: 250px;
+	padding: 15px;
+
 }
 
-#article_display{
-	font-size: 18px;
-	padding: 20px;
-	padding-top: 80px;
-	font-family: 'Cinzel', serif, bold
+#titles{
+	font-family: 'Cinzel', serif, bold;
+	margin-top: 30px;
+
+}
+
+#article_description{
+	font-size: 14px;
+	text-align: left;
+	margin-top: 30px;
+}
+
+
+ #news{
+	font-family: 'Special Elite', cursive;
+	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#news:hover {
+    background-color: #898b8e !important;
+}
+
+
+#sports{
+	font-family: 'Special Elite', cursive;
+	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#sports:hover {
+    background-color: #898b8e !important;
+}
+
+#entertainment{
+	font-family: 'Special Elite', cursive;
+	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#entertainment:hover {
+    background-color: #898b8e !important;
+}
+
+#tech{
+	font-family: 'Special Elite', cursive;
+	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#tech:hover {
+    background-color: #898b8e !important;
+}
+
+#business{
+	font-family: 'Special Elite', cursive;
+	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#business:hover {
+    background-color: #898b8e !important;
+}
+
+#health{
+	font-family: 'Special Elite', cursive;
+	font-size: 16px;
+	color: black !important; 
+	background-color: #d5dfef
+}
+
+#health:hover {
+    background-color: #898b8e !important;
+}
+
+#nav{
+	text-align: center;
 }
 
 
 .container
 {
 	margin-top: 8%;
+}
+
+#header{
+	text-align: center;
+	color: white;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #b7afa1;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer{
+	
+
+}
+
+#header{
+	text-align: center;
+	color: white;
+}
+
+h2{
+	color: white;
+}
+
+#time{
+	text-align: center;
+}
+
+#minutes{
+	border-width: 10px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #6bf442;
+
+}
+
+#start{
+	color: red;
+	margin-left: 482px;
+	font-size: 25px;
+}
+
+#seconds{
+	border-width: 10px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #6bf442;
 }

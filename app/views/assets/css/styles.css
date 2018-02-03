@@ -209,7 +209,60 @@ header .header-limiter nav a.selected {
 
 }
 
+img{
+	height: 112px;
+	width: 200px;
+	margin-top: 30px;
+}
 
+#article_display{
+	font-family: 'Cinzel', serif, bold;
+	margin-top: 30px;
+
+}
+
+#article_description{
+	font-size: 14px;
+	text-align: left;
+	margin-top: 30px;
+}
+
+
+#news{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	color: black;
+	background-color: #d5dfef
+}
+
+#sports{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	background-color: #d5dfef
+}
+
+#entertainment{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	background-color: #d5dfef
+}
+
+#tech{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	background-color: #d5dfef
+}
+
+#business{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	background-color: #d5dfef
+}
+
+#health{
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+	background-color: #d5dfef
 
 /* ------- Demo adds. Please ignore and remove ------- */
 
