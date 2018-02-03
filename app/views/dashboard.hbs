@@ -9,6 +9,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+  <script src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
 
 
 <style>
@@ -236,7 +238,7 @@ body {
 </head>
 
 
-<body>
+<body onload="init();">
 
 	<h2>Hello, {{ firstname }}</h2>
 
@@ -260,6 +262,7 @@ body {
   <main class="content">
     <div class="content_inner">
 
+      <canvas id="demoCanvas" width="550" height="140"></canvas>
 
 			<span id="welcome"></span>
 
@@ -317,6 +320,20 @@ body {
 
 </script>
 
+<script>
+      function init() {
+        var stage = new createjs.Stage("demoCanvas");
+        var text = new createjs.Text("Life Line!", "40px Georgia, serif", "red");
+        text.x = 320;
+        text.y = 100;
+        text.textBaseline = "alphabetic";
+        stage.addChild(text);
+        createjs.Tween.get(text, { loop: true })
+              .to({ alpha: 0 }, 2000, createjs.Ease.getPowInOut(4));
+        createjs.Ticker.setFPS(60);
+        createjs.Ticker.addEventListener("tick", stage);
+      } 
+</script>
 
 </body>
 
