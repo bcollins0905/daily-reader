@@ -1,8 +1,8 @@
 .boxed {
 border: 1px solid green ;
 width:200px;
-height: 250px;
-margin-left: 40px;
+height: 270px;
+margin-left: 60px;
 float: left;
 margin-right: 4%;
 margin-top: 3%;
@@ -11,7 +11,7 @@ position: relative;
 }
 img{
   width: 197px;
-  height: 247px;
+  height: 267px;
   display: block;
 }
 
