@@ -279,7 +279,9 @@ img{
 	text-align: center;
 }
 
-
+#timerText{
+	background-color: #212529;
+}
 
 
 /* ------- Demo adds. Please ignore and remove ------- */

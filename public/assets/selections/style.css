@@ -100,11 +100,62 @@ img{
 	color: white;
 }
 
-body{
-	background-color: #b7afa1;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #b7afa1;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer{
+	
 
 }
 
-#titles{
+#header{
+	text-align: center;
+	color: white;
+}
 
+h2{
+	color: white;
+}
+
+#time{
+	text-align: center;
+}
+
+#minutes{
+	border-width: 10px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #6bf442;
+
+}
+
+#start{
+	color: red;
+	margin-left: 482px;
+	font-size: 25px;
+}
+
+#seconds{
+	border-width: 10px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #6bf442;
 }
