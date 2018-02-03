@@ -36,7 +36,9 @@ exports.articles = function(req, res) {
 }
 
 exports.read = function(req, res) {
-
+	req.session.bookid=req.query.bookid;
+	req.session.title=req.query.title;
+	req.session.pagenumber=req.query.pagenumber;
 	res.render('read');
 }
 

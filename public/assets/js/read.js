@@ -30,13 +30,19 @@ $("#book_title").append(title);
 
 $("#previous").click(function(){
   n = n -1;
+  localStorage.setItem('page', JSON.stringify(n));
   GetContent(id, n);
 });
 
 $("#next").click(function(){
   n = n +1;
+  localStorage.setItem('page', JSON.stringify(n));
   GetContent(id, n);
 });
 
+
+localStorage.setItem('bookid', JSON.stringify(id));
+localStorage.setItem('title', JSON.stringify(title));
+localStorage.setItem('page', JSON.stringify(n));
 
 GetContent(id, n);

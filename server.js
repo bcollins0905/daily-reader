@@ -1,6 +1,7 @@
 var PORT = process.env.PORT || 3000;
 var request 	= require('request');
 var express 	= require('express');
+var cookiesession = require('cookie-session')
 var path 			= require('path');
 var bodyParser= require('body-parser');
 var sequelize = require("sequelize");
