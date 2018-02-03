@@ -10,8 +10,8 @@ exports.discussion = function(req, res) {
 	res.render('discussion');
 }
 
-exports.about = function(req, res){
-	res.render('about');
+exports.bookList = function(req, res){
+	res.render('bookList');
 }
 
 exports.signup = function(req, res){
@@ -33,6 +33,11 @@ exports.dashboard = function(req, res) {
 exports.articles = function(req, res) {
 
 	res.render('articles');
+}
+
+exports.read = function(req, res) {
+
+	res.render('read');
 }
 
 exports.logout = function(req, res){

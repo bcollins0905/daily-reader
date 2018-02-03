@@ -8,16 +8,16 @@
     "dialect": "mysql"
   },
   "test": {
-    "username": "",
+    "username": "root",
     "password": null,
-    "database": "",
-    "host": "",
+    "database": "userlogin_db",
+    "host":  "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "",
+    "username": "root",
     "password": null,
-    "database": "",
+    "database": "userlogin_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }

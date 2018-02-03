@@ -10,9 +10,13 @@ module.exports = function(app, passport) {
 
 	app.get('/discussion', controller.discussion);
 
-	app.get('/about', controller.about);
+	app.get('/bookList', controller.bookList);
 
 	app.get('/articles', controller.articles);
+
+	app.get('/read', controller.read);
+
+
 
 
 	app.post('/signup', passport.authenticate('local-signup', {
