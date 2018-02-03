@@ -248,7 +248,12 @@ body {
 				A number of studies indicate reading for at least 30 minutes every day can benefit a person’s health.
 				Consistent readers were found to live longer and enjoy improved cognition. Reading also helps to lower stress levels.
 				Life Line is intended as a tool to help people get into the habit of daily reading.
-</h3>
+			</h3>
+
+			<div>
+				<div id="lastbookpicture"/>
+				<div id="lastbookread"/>
+			</div>
 
 		</div>
 	</main>
@@ -256,16 +261,40 @@ body {
 
 
 <script type="text/javascript">
+	var $page = $('.page');
+
+	$('.menu_toggle').on('click', function(){
+	$page.toggleClass('shazam');
+	});
+	$('.content').on('click', function(){
+	$page.removeClass('shazam');
+	});
 
 
-var $page = $('.page');
+	var bookid = localStorage.getItem('bookid');
+	var page   = localStorage.getItem('page');
+	var title  = localStorage.getItem('title');
+	let picture = null;
+	$.get(
+		"/fake/GetBookList",
+		{"Access-Control-Allow-Headers":'*'},
+		function(data) {
+			data.forEach(function(entry) {
+				if('"'+entry.book_id+'"' == bookid){
+					$("#lastbookpicture").append('<img src = "'+entry.picture+'"/>');
+				}
 
-$('.menu_toggle').on('click', function(){
-$page.toggleClass('shazam');
-});
-$('.content').on('click', function(){
-$page.removeClass('shazam');
-});
+			});
+
+		});
+
+
+
+	$("#lastbookread").append(
+		'<div class="lastread">Continue Reading: '+title+' from page '+page+' </div>'
+	);
+
+
 </script>
 
 
