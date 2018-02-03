@@ -108,18 +108,67 @@ app.get('/fake/GetBookList', function(req, res) {
 	picture: "https://www.alephbet.com/pictures/medium/31457_1.JPG"
 	},
 	{
-	book_id: 84,
-	author: 'Anna Frank',
-	title: 'The diary of anna frank',
-	year: 1947,
-	picture: "https://upload.wikimedia.org/wikipedia/commons/3/3e/The_Moving_Picture_Boys_on_the_War_Front_-_Cover_-_Project_Gutenberg_etext_17744.jpg"
+	book_id: 1342,
+	author: 'Jane Austen',
+	title: 'Pride and Prejudice',
+	year: 1813,
+	picture: "https://images-na.ssl-images-amazon.com/images/I/51uWyPyyBnL._SX331_BO1,204,203,200_.jpg"
 	},
 	{
 	book_id:219,
-	author: 'Jhon Smith',
-	title: 'Peter Pan the book',
-	year:1925,
-	picture:"https://www.gutenberg.org/files/26998/26998-h/images/img-cover.jpg"
+	author: 'Joseph Conrad',
+	title: 'Heart of Darkness',
+	year:1899,
+	picture:"http://img1.imagesbn.com/p/9781940177366_p0_v1_s260x420.JPG"
+	},
+	{
+	book_id:84,
+	author: 'Mary Wollstonecraft Shelley',
+	title: 'Frankenstein; Or, The Modern Prometheus',
+	year:1823,
+	picture:"http://flixal.com/wp-content/uploads/2017/06/frlg.jpg"
+  },
+	{
+	book_id:76,
+	author: 'Mark Twain',
+	title: 'Adventures of Huckleberry Finn',
+	year:1884,
+	picture:"https://images.gr-assets.com/books/1388463189l/19374.jpg"
+	},
+	{
+	book_id:98,
+	author: 'Charles Dickens',
+	title: 'A Tale of Two Cities',
+	year:1859,
+	picture:"https://images.gr-assets.com/books/1488481774l/490853.jpg"
+	},
+	{
+	book_id:1952,
+	author: 'Charlotte Perkins Gilman',
+	title: 'The Yellow Wallpaper',
+	year:1892,
+	picture:"https://i.pinimg.com/236x/f9/5a/5d/f95a5de986fe6657620e2eb1f53a2ef4--the-yellow-wallpaper-charlotte.jpg"
+	},
+	{
+	book_id:2701,
+	author: 'Herman Melville',
+	title: 'Moby Dick; Or, The Whale',
+	year:1851,
+	picture:"https://images.gr-assets.com/books/1327940656l/153747.jpg"
+	},
+	{
+	book_id:56481,
+	author: 'Albert Bigelow Paine',
+	title: 'Peanut',
+	year:1913,
+	picture:"https://pictures.abebooks.com/isbn/9781332422340-us-300.jpg"
+},
+	{
+	book_id:2591,
+	author: 'Jacob Grimm and Wilhelm Grimm',
+	title: 'Grimms Fairy Tales',
+	year:1812,
+	picture:"http://www.loyalbooks.com/image/detail/Grimms-Fairy-Tales.jpg"
 	}
 
 ]);
