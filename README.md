@@ -24,3 +24,6 @@ Life Line is an app for providing users with news articles fitting their specifi
   - html
   - CSS
   - javascript
+
+
+<img width="1680" alt="screen shot 2018-02-05 at 7 37 46 pm" src="https://user-images.githubusercontent.com/26562326/35840591-196477ec-0aac-11e8-87c2-3fd2b5ee59bd.png">
