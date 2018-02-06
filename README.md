@@ -34,11 +34,17 @@ Life Line is an app for providing users with news articles fitting their specifi
 ## Log-in Page:
 <img width="1680" alt="screen shot 2018-02-05 at 7 40 01 pm" src="https://user-images.githubusercontent.com/26562326/35840637-66acac0e-0aac-11e8-83ea-fad5ebb07bb9.png">
 
-## Dashboard Page"
+## Dashboard Page:
 <img width="1680" alt="screen shot 2018-02-05 at 7 51 37 pm" src="https://user-images.githubusercontent.com/26562326/35840934-0e84b196-0aae-11e8-9948-394d5df9e1ae.png">
 <img width="1680" alt="screen shot 2018-02-05 at 7 51 41 pm" src="https://user-images.githubusercontent.com/26562326/35840935-0e9bdefc-0aae-11e8-90d9-f30df6d05397.png">
 
 
-## Articles Page
+## Articles Page:
 <img width="1680" alt="screen shot 2018-02-05 at 7 54 23 pm" src="https://user-images.githubusercontent.com/26562326/35841011-7e672b38-0aae-11e8-9dd7-407bce3de27c.png">
+
+### Timer:
 <img width="1680" alt="screen shot 2018-02-05 at 7 54 30 pm" src="https://user-images.githubusercontent.com/26562326/35841012-7e9afc60-0aae-11e8-8c62-58509824fb09.png">
+
+## Book List Page:
+<img width="1200" alt="screen shot 2018-02-05 at 7 57 23 pm" src="https://user-images.githubusercontent.com/26562326/35841061-d6658118-0aae-11e8-9a4c-7468fbbb07b5.png">
+<img width="1200" alt="screen shot 2018-02-05 at 7 57 31 pm" src="https://user-images.githubusercontent.com/26562326/35841062-d679cd26-0aae-11e8-94df-8577bfc8dd79.png">
