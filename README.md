@@ -9,3 +9,18 @@ Life Line is an app for providing users with news articles fitting their specifi
   - Reduced stress
 
 * Let’s face it. With the state of the world, you can’t afford to not keep up with the times.
+
+* Life Line is a tool to help users get into the habit of daily reading by providing them with articles on the news and stuff they’re interested in.
+
+* Users can register an account and search for books and articles fitting their specific interests.
+
+* Life Line features a timer to help them keep track of their reading speed.
+
+* The technologies leveraged for this project include:
+  - Handlebars
+  - Vue.js
+  - Passport
+  - createjs
+  - html
+  - CSS
+  - javascript
