@@ -27,6 +27,7 @@ app.use(passport.session()); // persistent login sessions
 app.set('views', './app/views')
 app.engine('hbs', exphbs({extname: '.hbs'}));
 app.set('view engine', '.hbs');
+
 // static
 
 console.log(path.join(__dirname, 'public'));
