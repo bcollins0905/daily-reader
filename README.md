@@ -33,3 +33,7 @@ Life Line is an app for providing users with news articles fitting their specifi
 
 ## Log-in Page:
 <img width="1680" alt="screen shot 2018-02-05 at 7 40 01 pm" src="https://user-images.githubusercontent.com/26562326/35840637-66acac0e-0aac-11e8-83ea-fad5ebb07bb9.png">
+
+## Dashboard Page"
+<img width="1680" alt="screen shot 2018-02-05 at 7 51 37 pm" src="https://user-images.githubusercontent.com/26562326/35840934-0e84b196-0aae-11e8-9948-394d5df9e1ae.png">
+<img width="1680" alt="screen shot 2018-02-05 at 7 51 41 pm" src="https://user-images.githubusercontent.com/26562326/35840935-0e9bdefc-0aae-11e8-90d9-f30df6d05397.png">
