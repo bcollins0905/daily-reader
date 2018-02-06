@@ -46,5 +46,5 @@ Life Line is an app for providing users with news articles fitting their specifi
 <img width="1680" alt="screen shot 2018-02-05 at 7 54 30 pm" src="https://user-images.githubusercontent.com/26562326/35841012-7e9afc60-0aae-11e8-8c62-58509824fb09.png">
 
 ## Book List Page:
-<img width="1200" alt="screen shot 2018-02-05 at 7 57 23 pm" src="https://user-images.githubusercontent.com/26562326/35841061-d6658118-0aae-11e8-9a4c-7468fbbb07b5.png">
-<img width="1200" alt="screen shot 2018-02-05 at 7 57 31 pm" src="https://user-images.githubusercontent.com/26562326/35841062-d679cd26-0aae-11e8-94df-8577bfc8dd79.png">
+<img width="1680" alt="screen shot 2018-02-05 at 7 57 23 pm" src="https://user-images.githubusercontent.com/26562326/35841061-d6658118-0aae-11e8-9a4c-7468fbbb07b5.png">
+<img width="1680" alt="screen shot 2018-02-05 at 7 59 34 pm" src="https://user-images.githubusercontent.com/26562326/35841101-1d53f9f6-0aaf-11e8-814c-f0dd8a74bb9e.png">
