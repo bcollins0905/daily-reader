@@ -232,6 +232,10 @@ body {
 	font-style: italic;
 }
 
+#demoCanvas {
+	margin-left: 17%;
+}
+
 
 </style>
 
@@ -266,7 +270,7 @@ body {
 
 			<span id="welcome"></span>
 
-      <h1>Welcome to Life Line</h1>
+
       <p>Life Line is an app for providing users with news articles fitting their specific interests.
 				A number of studies indicate reading for at least 30 minutes every day can benefit a person’s health.
 				Consistent readers were found to live longer and enjoy improved cognition. Reading also helps to lower stress levels.
@@ -318,13 +322,11 @@ body {
 	);
 
 
-</script>
 
-<script>
       function init() {
         var stage = new createjs.Stage("demoCanvas");
-        var text = new createjs.Text("Life Line!", "40px Georgia, serif", "red");
-        text.x = 320;
+        var text = new createjs.Text("Welcome to Life Line!", "40px Georgia, serif", "red");
+        text.x = 170;
         text.y = 100;
         text.textBaseline = "alphabetic";
         stage.addChild(text);
@@ -332,7 +334,8 @@ body {
               .to({ alpha: 0 }, 2000, createjs.Ease.getPowInOut(4));
         createjs.Ticker.setFPS(60);
         createjs.Ticker.addEventListener("tick", stage);
-      } 
+      }
+
 </script>
 
 </body>

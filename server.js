@@ -42,7 +42,7 @@ app.get('/', function(req, res){
 // Fetch a book page from gutemberg
 app.get('/bookcontent', function(req, res){
   console.log("Fetching book ID: "+req.query.id + " Page number:"+ req.query.pagenumber )
-  var pagesize = 3000;
+  var pagesize = 700;
 
   var options = {
     url: "https://www.gutenberg.org/files/"+req.query.id+"/"+req.query.id+"-0.txt",

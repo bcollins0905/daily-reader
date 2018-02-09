@@ -21,7 +21,7 @@ img{
  #news{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
-	color: black !important; 
+	color: black !important;
 	background-color: #d5dfef
 }
 
@@ -33,7 +33,7 @@ img{
 #sports{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
-	color: black !important; 
+	color: black !important;
 	background-color: #d5dfef
 }
 
@@ -44,7 +44,7 @@ img{
 #entertainment{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
-	color: black !important; 
+	color: black !important;
 	background-color: #d5dfef
 }
 
@@ -55,7 +55,7 @@ img{
 #tech{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
-	color: black !important; 
+	color: black !important;
 	background-color: #d5dfef
 }
 
@@ -66,7 +66,7 @@ img{
 #business{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
-	color: black !important; 
+	color: black !important;
 	background-color: #d5dfef
 }
 
@@ -77,7 +77,7 @@ img{
 #health{
 	font-family: 'Special Elite', cursive;
 	font-size: 16px;
-	color: black !important; 
+	color: black !important;
 	background-color: #d5dfef
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 .footer{
-	
+
 
 }
 
@@ -158,4 +158,19 @@ h2{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	color: #6bf442;
+}
+
+#countdown-timer {
+
+  top: 20%;
+  cursor: pointer;
+  /* background: #424242; */
+  color: white;
+  border-width: 1px;
+  border-color: #fed136;
+  font-size: 40px;
+  border-radius: 4px;
+	margin-right: 2%;
+
+
 }
