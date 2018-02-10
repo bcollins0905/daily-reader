@@ -1,6 +1,8 @@
+var api_key = process.env.API_KEY;
+
 function newsGetter() {
     
-    var queryURL = 'https://newsapi.org/v2/top-headlines?' + 'sources=associated-press &' + 'apiKey=d13abbdf045a48efadfe6380e367c2d8';
+    var queryURL = 'https://newsapi.org/v2/top-headlines?' + 'sources=associated-press &' + 'apiKey=apiKey=api_key';
     console.log("query " + queryURL)
 
     $("#news").click(function() {
