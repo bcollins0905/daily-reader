@@ -44,7 +44,6 @@ jQuery(function ($) {
 function newsGetter() {
 
     var queryURL = 'https://newsapi.org/v2/top-headlines?' + 'sources=associated-press &' + 'apiKey=d13abbdf045a48efadfe6380e367c2d8';
->>>>>>> f6c38d295c97190511ded22bd5433f119345b48e
     console.log("query " + queryURL)
 
     $("#news").click(function() {
