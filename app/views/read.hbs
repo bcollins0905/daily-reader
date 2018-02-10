@@ -15,16 +15,40 @@
 			<link href="https://headervideo.github.io/hvheadervideo/css/mdb.min.css" rel="stylesheet">
       <link href="https://headervideo.github.io/hvheadervideo/css/style.css" rel="stylesheet">
 <style>
+
+#top, #bottom, #left, #right {
+	background: #424242;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+
 .container {
     column-count: 2;
-    margin-top: 4%;
+    margin-top: 1%;
     text-align: left;
 
+}
+#book_content{
+	margin-top: 2%;
+	margin-bottom: 15%;
 }
 
 h1 {
   text-align: center;
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 a {
@@ -62,12 +86,45 @@ a:hover {
   border-radius:100%;
 }
 
+#countdown-timer {
+
+  top: 20%;
+  cursor: pointer;
+  /* background: #424242; */
+  color: white;
+  border-width: 1px;
+  border-color: #fed136;
+  font-size: 40px;
+  border-radius: 4px;
+	margin-right: 2%;
+
+
+}
+
 </style>
   <body>
+		<div id="left"></div>
+		<div id="right"></div>
+		<div id="top"></div>
+		<div id="bottom"></div>
 
     <header>
   	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   	    <a class="navbar-brand" href="/bookList"><img src="/public/logo.png" width="70" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+  	        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  	    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+  	        <ul class="navbar-nav mr-auto">
+  	            <li class="nav-item active">
+  	                <a class="nav-link" href="/bookList">Book List <span class="sr-only"></span></a>
+  	            </li>
+								<li class="nav-item active">
+  	                <a class="nav-link" href="/dashboard">Dashboard <span class="sr-only"></span></a>
+  	            </li>
+            </ul>
+						<div id="countdown-timer"></div>
+						<button class="start-timer">Start timer</button>
+        </div>
 
   	</nav>
   	</header>
@@ -81,13 +138,14 @@ a:hover {
 
     <div class="container">
 
-    <div id="book_content">
-   </div>
+    <div id="book_content"> </div>
 
-</div>
+		</div>
+
 
 
   </body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>

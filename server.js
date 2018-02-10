@@ -11,6 +11,7 @@ var env 			= require('dotenv').load();
 var app 	 		= express();
 
 
+
 //For BodyParser
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -27,8 +28,6 @@ app.set('views', './app/views')
 app.engine('hbs', exphbs({extname: '.hbs'}));
 app.set('view engine', '.hbs');
 
-
-
 // static
 
 console.log(path.join(__dirname, 'public'));
@@ -38,10 +37,12 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.get('/', function(req, res){
 	res.redirect('/index');
 });
+
+
 // Fetch a book page from gutemberg
 app.get('/bookcontent', function(req, res){
   console.log("Fetching book ID: "+req.query.id + " Page number:"+ req.query.pagenumber )
-  var pagesize = 3000;
+  var pagesize = 700;
 
   var options = {
     url: "https://www.gutenberg.org/files/"+req.query.id+"/"+req.query.id+"-0.txt",
