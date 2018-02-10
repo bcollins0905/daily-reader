@@ -39,8 +39,7 @@ jQuery(function ($) {
   });
 
 });
-
-
+}
 function newsGetter() {
 
     var queryURL = 'https://newsapi.org/v2/top-headlines?' + 'sources=associated-press &' + 'apiKey=d13abbdf045a48efadfe6380e367c2d8';
@@ -247,3 +246,4 @@ $.ajax({
           }
 
 techGetter()
+
